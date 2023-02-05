@@ -1,0 +1,3255 @@
+<tnz framecount="1" version="71.1">
+  <generator>
+    "OpenToonz 1.7.1"
+  </generator>
+  <properties>
+    <cameras>
+      <camera>
+        <cameraSize>
+          10.6667 6 
+        </cameraSize>
+        <cameraRes>
+          1280 720 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs/.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="Mac">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs/.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <syncColorSettings>
+          1 
+        </syncColorSettings>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="Mac">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv and Welch encoding">
+              <item value="Lempel-Ziv and Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      <altBrightnessContrast>
+        0 50 
+      </altBrightnessContrast>
+      <lpNoneFormat>
+        tif 
+      </lpNoneFormat>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        <alignBoundaryStrokesDirection>
+          0 
+        </alignBoundaryStrokesDirection>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <level id='1'>
+        Z 
+        <info dpiType="image"/>
+        <path>
+          "+extras/Z..tif"
+        </path>
+        
+      </level>
+      <level id='2'>
+        W 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/W.pli"
+        </path>
+        
+      </level>
+      <level id='3'>
+        X 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/X.pli"
+        </path>
+        
+      </level>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <level id='1'/><level id='2'/><level id='3'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <levelColumn id='4'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 1 <level id='1'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='5'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24940.3 25013.3 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='6'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 1 <level id='2'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='7'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24958.9 24914.9 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='8'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 1 <level id='3'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='9'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24977 24830.9 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25550 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            10.6667 6 
+          </cameraSize>
+          <cameraRes>
+            1280 720 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          fondo 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25500 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          pigis 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 1.51314 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.295782 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25450 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25400 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <internal>
+        <fxnode>
+          <STD_blurFx id='10'>
+            
+            <params>
+              <value>
+                <default>
+                  4.19947 
+                </default>
+                </value>
+              <useSSE>
+                1 1 
+              </useSSE>
+              </params>
+            <ports>
+              <Source>
+                <STD_toneCurveFx id='11'>
+                  
+                  <params>
+                    <globalIntensity>
+                      <default>
+                        1 
+                      </default>
+                      </globalIntensity>
+                    <curve>
+                      <tonecurve>
+                        <redgreenbluealphachannel>
+                          <point>
+                            <pointParam id='12'>
+                              
+                              <x>
+                                <default>
+                                  -40 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='13'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='14'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='15'>
+                              
+                              <x>
+                                <default>
+                                  0 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='16'>
+                              
+                              <x>
+                                <default>
+                                  16 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  16 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='17'>
+                              
+                              <x>
+                                <default>
+                                  78.8325 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  35.1693 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='18'>
+                              
+                              <x>
+                                <default>
+                                  142 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  96 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='19'>
+                              
+                              <x>
+                                <default>
+                                  190.389 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  142.599 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='20'>
+                              
+                              <x>
+                                <default>
+                                  239 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  239 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='21'>
+                              
+                              <x>
+                                <default>
+                                  255 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='22'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='23'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='24'>
+                              
+                              <x>
+                                <default>
+                                  295 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          </redgreenbluealphachannel>
+                        <redgreenbluechannel>
+                          <point>
+                            <pointParam id='25'>
+                              
+                              <x>
+                                <default>
+                                  -40 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='26'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='27'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='28'>
+                              
+                              <x>
+                                <default>
+                                  0 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='29'>
+                              
+                              <x>
+                                <default>
+                                  16 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  16 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='30'>
+                              
+                              <x>
+                                <default>
+                                  239 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  239 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='31'>
+                              
+                              <x>
+                                <default>
+                                  255 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='32'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='33'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='34'>
+                              
+                              <x>
+                                <default>
+                                  295 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          </redgreenbluechannel>
+                        <redchannel>
+                          <point>
+                            <pointParam id='35'>
+                              
+                              <x>
+                                <default>
+                                  -40 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='36'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='37'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='38'>
+                              
+                              <x>
+                                <default>
+                                  0 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='39'>
+                              
+                              <x>
+                                <default>
+                                  16 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  16 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='40'>
+                              
+                              <x>
+                                <default>
+                                  239 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  239 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='41'>
+                              
+                              <x>
+                                <default>
+                                  255 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='42'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='43'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='44'>
+                              
+                              <x>
+                                <default>
+                                  295 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          </redchannel>
+                        <greenchannel>
+                          <point>
+                            <pointParam id='45'>
+                              
+                              <x>
+                                <default>
+                                  -40 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='46'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='47'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='48'>
+                              
+                              <x>
+                                <default>
+                                  0 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='49'>
+                              
+                              <x>
+                                <default>
+                                  16 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  16 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='50'>
+                              
+                              <x>
+                                <default>
+                                  239 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  239 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='51'>
+                              
+                              <x>
+                                <default>
+                                  255 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='52'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='53'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='54'>
+                              
+                              <x>
+                                <default>
+                                  295 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          </greenchannel>
+                        <bluechannel>
+                          <point>
+                            <pointParam id='55'>
+                              
+                              <x>
+                                <default>
+                                  -40 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='56'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='57'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='58'>
+                              
+                              <x>
+                                <default>
+                                  0 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='59'>
+                              
+                              <x>
+                                <default>
+                                  16 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  16 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='60'>
+                              
+                              <x>
+                                <default>
+                                  239 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  239 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='61'>
+                              
+                              <x>
+                                <default>
+                                  255 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='62'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='63'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='64'>
+                              
+                              <x>
+                                <default>
+                                  295 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          </bluechannel>
+                        <alphachannel>
+                          <point>
+                            <pointParam id='65'>
+                              
+                              <x>
+                                <default>
+                                  -40 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='66'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='67'>
+                              
+                              <x>
+                                <default>
+                                  -20 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='68'>
+                              
+                              <x>
+                                <default>
+                                  0 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  0 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='69'>
+                              
+                              <x>
+                                <default>
+                                  16 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  16 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='70'>
+                              
+                              <x>
+                                <default>
+                                  239 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  239 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='71'>
+                              
+                              <x>
+                                <default>
+                                  255 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='72'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='73'>
+                              
+                              <x>
+                                <default>
+                                  275 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          <point>
+                            <pointParam id='74'>
+                              
+                              <x>
+                                <default>
+                                  295 
+                                </default>
+                                </x>
+                              <y>
+                                <default>
+                                  255 
+                                </default>
+                                </y>
+                              
+                            </pointParam>
+                            
+                          </point>
+                          </alphachannel>
+                        <isLineaer>
+                          0 0 
+                        </isLineaer>
+                        </tonecurve>
+                      </curve>
+                    </params>
+                  <ports>
+                    <Source>
+                      <Toonz_columnFx id='9'/>
+                    </Source>
+                    </ports>
+                  <dagNodePos>
+                    25127 24830.9 
+                  </dagNodePos>
+                  <numberId>
+                    2 
+                  </numberId>
+                  <name>
+                    Curves02 
+                  </name>
+                  <fxId>
+                    Curves02 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </STD_toneCurveFx>
+                
+              </Source>
+              </ports>
+            <dagNodePos>
+              25277.6 24831.5 
+            </dagNodePos>
+            <numberId>
+              2 
+            </numberId>
+            <name>
+              Blur02 
+            </name>
+            <fxId>
+              Blur02 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_blurFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='75'>
+            
+            <params>
+              <mode>
+                1 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.5 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    1 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    0.572549 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.0784314 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <STD_outBorderFx id='76'>
+                  
+                  <params>
+                    <Thickness>
+                      <default>
+                        1.05 
+                      </default>
+                      </Thickness>
+                    <Accuracy>
+                      <default>
+                        50 
+                      </default>
+                      </Accuracy>
+                    <Noise>
+                      <default>
+                        0 
+                      </default>
+                      </Noise>
+                    <Horizontal>
+                      <default>
+                        100 
+                      </default>
+                      </Horizontal>
+                    <upWDiagonal>
+                      <default>
+                        100 
+                      </default>
+                      </upWDiagonal>
+                    <Vertical>
+                      <default>
+                        100 
+                      </default>
+                      </Vertical>
+                    <doWDiagonal>
+                      <default>
+                        100 
+                      </default>
+                      </doWDiagonal>
+                    </params>
+                  <ports>
+                    <Source>
+                      <Toonz_columnFx id='7'/>
+                    </Source>
+                    </ports>
+                  <dagNodePos>
+                    25099.6 24921.5 
+                  </dagNodePos>
+                  <numberId>
+                    1 
+                  </numberId>
+                  <name>
+                    Outline01 
+                  </name>
+                  <fxId>
+                    Outline01 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </STD_outBorderFx>
+                
+              </Source>
+              </ports>
+            <dagNodePos>
+              25249.6 24921.5 
+            </dagNodePos>
+            <numberId>
+              1 
+            </numberId>
+            <name>
+              BodyHighlight01 
+            </name>
+            <fxId>
+              BodyHighlight01 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_outBorderFx id='76'/>
+        </fxnode>
+        <fxnode>
+          <STD_toneCurveFx id='77'>
+            
+            <params>
+              <globalIntensity>
+                <default>
+                  1 
+                </default>
+                </globalIntensity>
+              <curve>
+                <tonecurve>
+                  <redgreenbluealphachannel>
+                    <point>
+                      <pointParam id='78'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='79'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='80'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='81'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='82'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='83'>
+                        
+                        <x>
+                          <default>
+                            87.8325 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            65.1693 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='84'>
+                        
+                        <x>
+                          <default>
+                            135 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            113 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='85'>
+                        
+                        <x>
+                          <default>
+                            182.17 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            160.833 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='86'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='87'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='88'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='89'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='90'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redgreenbluealphachannel>
+                  <redgreenbluechannel>
+                    <point>
+                      <pointParam id='91'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='92'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='93'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='94'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='95'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='96'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='97'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='98'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='99'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='100'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redgreenbluechannel>
+                  <redchannel>
+                    <point>
+                      <pointParam id='101'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='102'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='103'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='104'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='105'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='106'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='107'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='108'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='109'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='110'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redchannel>
+                  <greenchannel>
+                    <point>
+                      <pointParam id='111'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='112'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='113'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='114'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='115'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='116'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='117'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='118'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='119'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='120'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </greenchannel>
+                  <bluechannel>
+                    <point>
+                      <pointParam id='121'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='122'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='123'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='124'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='125'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='126'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='127'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='128'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='129'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='130'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </bluechannel>
+                  <alphachannel>
+                    <point>
+                      <pointParam id='131'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='132'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='133'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='134'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='135'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='136'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='137'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='138'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='139'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='140'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </alphachannel>
+                  <isLineaer>
+                    0 0 
+                  </isLineaer>
+                  </tonecurve>
+                </curve>
+              </params>
+            <ports>
+              <Source>
+                <STD_blurFx id='141'>
+                  
+                  <params>
+                    <value>
+                      <default>
+                        6.29921 
+                      </default>
+                      </value>
+                    <useSSE>
+                      1 1 
+                    </useSSE>
+                    </params>
+                  <ports>
+                    <Source>
+                      <Toonz_columnFx id='5'/>
+                    </Source>
+                    </ports>
+                  <dagNodePos>
+                    25134.1 25023 
+                  </dagNodePos>
+                  <numberId>
+                    1 
+                  </numberId>
+                  <name>
+                    Blur01 
+                  </name>
+                  <fxId>
+                    Blur01 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </STD_blurFx>
+                
+              </Source>
+              </ports>
+            <dagNodePos>
+              25284.6 25023 
+            </dagNodePos>
+            <numberId>
+              1 
+            </numberId>
+            <name>
+              Curves01 
+            </name>
+            <fxId>
+              Curves01 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_toneCurveFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_toneCurveFx id='11'/>
+        </fxnode>
+        <fxnode>
+          <STD_blurFx id='141'/>
+        </fxnode>
+        </internal>
+      <terminal>
+        <fxnode>
+          <STD_blurFx id='10'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='75'/>
+        </fxnode>
+        <fxnode>
+          <STD_toneCurveFx id='77'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='142'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25409.1 24936.2 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='143'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='142'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25558.2 24926.9 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            OutputFx 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   05 may. 25   19:20              shialeweb       |"
+  </history>
+  </tnz>

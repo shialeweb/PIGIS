@@ -1,0 +1,58 @@
+<palette id='1'>
+  
+  <version>
+    71 0 
+  </version>
+  <styles>
+    <style>
+      color_0 3 255 255 255 0 
+    </style>
+    <style>
+      color_1 3 0 0 0 255 
+    </style>
+    <style>
+      color_2 4001 "SLOS_MPB/001_Pencil.myb"24 120 0 255 0 
+    </style>
+    <style>
+      color_3 4001 "SLOS_MPB/010_Fill.myb"24 120 0 255 0 
+    </style>
+    <style>
+      color_4 4001 "SLOS_MPB/020_Wet-Brush.myb"0 110 179 255 0 
+    </style>
+    <style>
+      color_5 4001 "SLOS_MPB/016_Flat-Brush.myb"0 82 133 255 0 
+    </style>
+    <style>
+      color_6 4001 "SLOS_MPB/010_Fill.myb"4 84 0 255 0 
+    </style>
+    <style>
+      color_7 4001 "SLOS_MPB/018_Pointed-Brush.myb"184 20 69 255 0 
+    </style>
+    <style>
+      color_8 4001 "SLOS_MPB/025_Sand.myb"107 0 32 255 0 
+    </style>
+    <style>
+      color_9 4001 "experimental/pixelblocking.myb"35 51 168 255 0 
+    </style>
+    <style>
+      color_10 4001 "SLOS_MPB/001_Pencil.myb"0 46 2 255 0 
+    </style>
+    <style>
+      color_11 4001 "SLOS_MPB/004_Brush.myb"0 5 0 255 0 
+    </style>
+    </styles>
+  <stylepages>
+    <page>
+      <name>
+        colors 
+      </name>
+      <indices>
+        0 1 2 3 4 5 6 7 8 9 10 11 
+      </indices>
+      </page>
+    </stylepages>
+  <shortcuts>
+    9 0 1 2 3 4 5 6 7 8 
+  </shortcuts>
+  
+</palette>
