@@ -1,4 +1,4 @@
-<tnz framecount="1" version="71.1">
+<tnz framecount="450" version="71.1">
   <generator>
     "OpenToonz 1.7.1"
   </generator>
@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs/..jpg"
+          "+outputs/inicio2.mp4"
         </path>
         <bpp>
           64 
@@ -46,7 +46,7 @@
           0 
         </multimedia>
         <threadsIndex>
-          2 
+          0 
         </threadsIndex>
         <maxTileSizeIndex>
           0 
@@ -73,6 +73,10 @@
           <formatProperties ext="jpg">
             <property max="100" min="0" name="Quality" type="int" value="90"/>
             <property max="100" min="0" name="Smoothing" type="int" value="0"/>
+            </formatProperties>
+          <formatProperties ext="mp4">
+            <property max="100" min="1" name="Quality" type="int" value="90"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
             </formatProperties>
           <formatProperties ext="tif">
             <property name="Byte Ordering" type="enum" value="Mac">
@@ -118,7 +122,7 @@
         </output>
       <output name="preview">
         <range>
-          0 -1 
+          0 449 
         </range>
         <step>
           1 
@@ -393,11 +397,123 @@
         </path>
         
       </level>
+      <level id='5'>
+        L 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/L.pli"
+        </path>
+        
+      </level>
+      <level id='6'>
+        M 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/M.pli"
+        </path>
+        
+      </level>
+      <level id='7'>
+        N 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/N.pli"
+        </path>
+        
+      </level>
+      <level id='8'>
+        O 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/O.pli"
+        </path>
+        
+      </level>
+      <level id='9'>
+        P 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/P.pli"
+        </path>
+        
+      </level>
+      <level id='10'>
+        Q 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/Q.pli"
+        </path>
+        
+      </level>
+      <level id='11'>
+        R 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/R.pli"
+        </path>
+        
+      </level>
+      <level id='12'>
+        V 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/V.pli"
+        </path>
+        
+      </level>
+      <level id='13'>
+        C 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/C.tlv"
+        </path>
+        
+      </level>
+      <level id='14'>
+        W 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/W.pli"
+        </path>
+        
+      </level>
+      <level id='15'>
+        ojos 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/ojos.pli"
+        </path>
+        
+      </level>
+      <level id='16'>
+        boca 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/boca.pli"
+        </path>
+        
+      </level>
+      <level id='17'>
+        bocados 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/bocados.tlv"
+        </path>
+        
+      </level>
+      <level id='18'>
+        AC 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/AC.pli"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='2'/><level id='3'/><level id='4'/>
+        <level id='2'/><level id='1'/><level id='3'/><level id='4'/><level id='5'/><level id='6'/><level id='7'/><level id='8'/><level id='9'/><level id='10'/><level id='11'/><level id='12'/><level id='13'/><level id='14'/><level id='15'/><level id='16'/><level id='17'/><level id='18'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -405,23 +521,26 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='5'>
+      <levelColumn id='19'>
         
         <status>
           0 
         </status>
         <cells>
           <cell>
-            0 1 <level id='2'/>"-"0 
+            0 450 <level id='2'/>"-"0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='6'>
+          <Toonz_columnFx id='20'>
             
             <params>
               </params>
             <ports>
               </ports>
+            <dagNodePos>
+              24880.5 25099.2 
+            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -440,23 +559,517 @@
         </fx>
         
       </levelColumn>
-      <levelColumn id='7'>
+      <levelColumn id='21'>
         
         <status>
           0 
         </status>
         <cells>
           <cell>
-            0 1 <level id='4'/>0001 0 
+            0 96 <level id='12'/>0001 0 
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='8'>
+          <Toonz_columnFx id='22'>
             
             <params>
               </params>
             <ports>
               </ports>
+            <dagNodePos>
+              25005 24955 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='23'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 96 <level id='5'/>0001 0 
+          </cell>
+          <cell>
+            408 42 <level id='5'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='24'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24864.7 24905.4 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='25'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 96 <level id='8'/>0001 0 
+          </cell>
+          <cell>
+            408 42 <level id='8'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='26'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24987.6 24696.6 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='27'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 96 <level id='10'/>0001 0 
+          </cell>
+          <cell>
+            408 42 <level id='10'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='28'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24655 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='29'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 96 <level id='11'/>0001 0 
+          </cell>
+          <cell>
+            408 42 <level id='11'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='30'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24875.9 24848.5 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='31'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 96 <level id='9'/>0001 0 
+          </cell>
+          <cell>
+            408 42 <level id='9'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='32'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24755 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='33'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 96 <level id='7'/>0001 0 
+          </cell>
+          <cell>
+            408 42 <level id='7'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='34'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24805 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='35'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            123 279 <level id='18'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='36'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24965.1 25003.1 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='37'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            96 312 <level id='14'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='38'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24847.2 25030 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='39'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            104 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            117 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            140 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            153 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            170 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            204 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            217 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            240 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            253 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            270 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            288 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            301 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            324 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            337 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            354 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            378 7 <level id='15'/>0001 0 
+          </cell>
+          <cell>
+            395 7 <level id='15'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='40'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24855 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='41'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            181 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            188 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            196 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            203 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            214 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            221 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            229 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            236 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            244 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            251 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            259 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            266 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            275 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            285 7 <level id='17'/>0001 0 
+          </cell>
+          <cell>
+            296 6 <level id='16'/>0001 0 
+          </cell>
+          <cell>
+            309 7 <level id='17'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='42'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24605 
+            </dagNodePos>
             <numberId>
               0 
             </numberId>
@@ -478,7 +1091,7 @@
       
     </columns>
     <pegbars>
-      <pegbar activeboth="yes" id="Camera1">
+      <pegbar id="None">
         <parent handle="B" id="None" parentHandle="B">
           </parent>
         <isOpened>
@@ -490,26 +1103,6 @@
         <status>
           0 
         </status>
-        <y>
-          <default>
-            0 
-          </default>
-          <keyframes>
-            <L>
-              0 0.75 
-            </L>
-            </keyframes>
-          </y>
-        <z>
-          <default>
-            0 
-          </default>
-          <keyframes>
-            <L>
-              0 -203.127 
-            </L>
-            </keyframes>
-          </z>
         <sx>
           <default>
             1 
@@ -527,6 +1120,726 @@
           </sc>
         <nodePos>
           1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.0165324 
+            </L>
+            <L>
+              <prev>
+                0.0165324 
+              </prev>
+              52 0.0165324 
+            </L>
+            <L>
+              <prev>
+                0.0165354 
+              </prev>
+              95 0.0165354 
+            </L>
+            <L>
+              <prev>
+                0.0165354 
+              </prev>
+              120 0.0165354 
+            </L>
+            <L>
+              <prev>
+                0.0165354 
+              </prev>
+              132 0.0165354 
+            </L>
+            <L>
+              <prev>
+                0.0165354 
+              </prev>
+              395 0.0165354 
+            </L>
+            <L>
+              <prev>
+                0.769163 
+              </prev>
+              406 0.769163 
+            </L>
+            <L>
+              <prev>
+                2.02068 
+              </prev>
+              419 2.02068 
+            </L>
+            <L>
+              <prev>
+                2.23141 
+              </prev>
+              426 2.23141 
+            </L>
+            <L>
+              <prev>
+                0.184984 
+              </prev>
+              435 0.184984 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              52 0 
+            </L>
+            <L>
+              <prev>
+                0.748031 
+              </prev>
+              95 0.748031 
+            </L>
+            <L>
+              <prev>
+                0.748031 
+              </prev>
+              120 0.748031 
+            </L>
+            <L>
+              <prev>
+                -0.103147 
+              </prev>
+              132 -0.103147 
+            </L>
+            <L>
+              <prev>
+                -0.103147 
+              </prev>
+              395 -0.103147 
+            </L>
+            <L>
+              <prev>
+                0.318325 
+              </prev>
+              406 0.318325 
+            </L>
+            <L>
+              <prev>
+                0.35273 
+              </prev>
+              419 0.35273 
+            </L>
+            <L>
+              <prev>
+                -0.283778 
+              </prev>
+              426 -0.283778 
+            </L>
+            <L>
+              <prev>
+                -0.688105 
+              </prev>
+              435 -0.688105 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -203.127 
+            </L>
+            <L>
+              <prev>
+                -203.127 
+              </prev>
+              52 -203.127 
+            </L>
+            <L>
+              <prev>
+                -203.127 
+              </prev>
+              95 -203.127 
+            </L>
+            <L>
+              <prev>
+                -203.127 
+              </prev>
+              120 -203.127 
+            </L>
+            <L>
+              <prev>
+                -625.001 
+              </prev>
+              132 -625.001 
+            </L>
+            <L>
+              <prev>
+                -625.001 
+              </prev>
+              395 -625.001 
+            </L>
+            <L>
+              <prev>
+                -625.001 
+              </prev>
+              406 -625.001 
+            </L>
+            <L>
+              <prev>
+                -625.001 
+              </prev>
+              419 -625.001 
+            </L>
+            <L>
+              <prev>
+                -625.001 
+              </prev>
+              426 -625.001 
+            </L>
+            <L>
+              <prev>
+                -250.002 
+              </prev>
+              435 -250.002 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              52 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              95 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              120 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              132 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              395 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              406 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              419 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              435 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              52 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              95 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              120 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              132 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              395 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              406 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              419 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              426 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              435 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              52 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              95 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              120 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              132 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              395 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              406 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              419 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              426 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              435 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              52 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              95 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              120 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              132 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              395 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              406 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              419 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              426 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              435 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              52 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              95 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              120 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              132 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              395 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              406 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              419 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              435 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              52 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              95 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              120 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              132 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              395 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              406 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              419 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              435 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              52 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              95 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              120 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              132 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              395 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              406 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              419 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              435 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              52 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              95 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              120 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              132 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              395 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              406 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              419 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              435 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24500 25550 
         </nodePos>
         <camera>
           <cameraSize>
@@ -571,7 +1884,7 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24500 25500 
         </nodePos>
         </pegbar>
       <pegbar id="Col1">
@@ -605,14 +1918,1767 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25500 
         </nodePos>
         </pegbar>
       <pegbar id="Col2">
         <parent handle="B" id="Table" parentHandle="B">
           </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24620 25450 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Col5" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -1.45888 -0.659431 1.45888 0.659431 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -78.5319 
+            </L>
+            <L>
+              <prev>
+                10.6622 
+              </prev>
+              9 10.6622 
+            </L>
+            <L>
+              <prev>
+                -62.4248 
+              </prev>
+              19 -62.4248 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shy>
+        <cycle>
+          1 
+        </cycle>
+        <nodePos>
+          24620 25400 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col4">
+        <parent handle="B" id="Col5" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -1.65761 -1.37758 1.65761 1.37758 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                -35.7659 
+              </prev>
+              9 -35.7659 
+            </L>
+            <L>
+              <prev>
+                9.53052 
+              </prev>
+              19 9.53052 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shy>
+        <cycle>
+          1 
+        </cycle>
+        <nodePos>
+          24620 25200 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col5">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -1.73891 -1.19691 1.73891 1.19691 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -2.81053 
+            </L>
+            <L>
+              <prev>
+                0.905801 
+              </prev>
+              94 0.905801 
+            </L>
+            <L>
+              <prev>
+                0.905801 
+              </prev>
+              408 0.905801 
+            </L>
+            <L>
+              <prev>
+                4.24318 
+              </prev>
+              426 4.24318 
+            </L>
+            <L>
+              <prev>
+                6.36488 
+              </prev>
+              449 6.36488 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.476527 
+            </L>
+            <L>
+              <prev>
+                0.612325 
+              </prev>
+              94 0.612325 
+            </L>
+            <L>
+              <prev>
+                0.612325 
+              </prev>
+              408 0.612325 
+            </L>
+            <L>
+              <prev>
+                0.474701 
+              </prev>
+              426 0.474701 
+            </L>
+            <L>
+              <prev>
+                -0.844193 
+              </prev>
+              449 -0.844193 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              94 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              408 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              449 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              94 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              408 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              449 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              94 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              408 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              426 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              449 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              94 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              408 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              426 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              449 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              94 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              408 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              426 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              449 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              94 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              408 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              449 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              94 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              408 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              449 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              94 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              408 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              449 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              94 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              408 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              426 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              449 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24395 25267.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col6">
+        <parent handle="B" id="Col5" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -1.81569 -1.34596 1.81569 1.34596 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                33.2384 
+              </prev>
+              9 33.2384 
+            </L>
+            <L>
+              <prev>
+                -15.6812 
+              </prev>
+              19 -15.6812 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <cycle>
+          1 
+        </cycle>
+        <nodePos>
+          24620 25350 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col7">
+        <parent handle="B" id="Col8" parentHandle="B">
+          </parent>
         <name>
-          pigis 
+          calabaza 
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -1.2466 -1.1111 1.2466 1.1111 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                74.4152 
+              </prev>
+              9 74.4152 
+            </L>
+            <L>
+              <prev>
+                5.92751 
+              </prev>
+              19 5.92751 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shy>
+        <cycle>
+          1 
+        </cycle>
+        <nodePos>
+          24796.5 25280.7 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col8">
+        <parent handle="B" id="Col5" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -1.79311 -0.704598 1.79311 0.704598 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              9 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              19 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                -67.3538 
+              </prev>
+              9 -67.3538 
+            </L>
+            <L>
+              <prev>
+                -9.72739 
+              </prev>
+              19 -9.72739 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              9 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              19 0 
+            </L>
+            </keyframes>
+          </shy>
+        <cycle>
+          1 
+        </cycle>
+        <nodePos>
+          24515 25267.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col9">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.639052 -0.2338 -0.639052 0.2338 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              123 3.52002 
+            </L>
+            <L>
+              <prev>
+                1.77926 
+              </prev>
+              134 1.77926 
+            </L>
+            <L>
+              <prev>
+                -4.01465 
+              </prev>
+              401 -4.01465 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              123 -0.14542 
+            </L>
+            <L>
+              <prev>
+                -0.119758 
+              </prev>
+              134 -0.119758 
+            </L>
+            <L>
+              <prev>
+                -0.0897375 
+              </prev>
+              401 -0.0897375 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              134 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              401 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              134 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              401 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              134 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              401 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              134 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              401 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              134 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              401 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              134 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              401 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              134 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              401 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              134 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              401 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              134 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              401 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24620 25100 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col10">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <name>
+          pigiscompleta 
         </name>
         <isOpened>
           0 
@@ -639,12 +3705,15 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25300 
         </nodePos>
         </pegbar>
-      <pegbar id="BadPegbar">
-        <parent handle="B" id="None" parentHandle="B">
+      <pegbar id="Col11">
+        <parent handle="B" id="Table" parentHandle="B">
           </parent>
+        <name>
+          ojos 
+        </name>
         <isOpened>
           0 
         </isOpened>
@@ -670,7 +3739,595 @@
           </default>
           </sc>
         <nodePos>
-          1.234e+09 5.678e+09 
+          24620 25250 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col12">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.679667 0.00217146 0.679667 -0.00217146 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              181 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              186 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              188 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              194 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              196 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              201 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              203 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              209 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              181 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              186 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              188 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              194 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              196 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              201 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              203 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              209 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              181 1 
+            </L>
+            <L>
+              <prev>
+                1.24608 
+              </prev>
+              186 1.24608 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              188 1 
+            </L>
+            <L>
+              <prev>
+                1.57105 
+              </prev>
+              194 1.57105 
+            </L>
+            <L>
+              <prev>
+                1.57105 
+              </prev>
+              196 1.57105 
+            </L>
+            <L>
+              <prev>
+                0.842747 
+              </prev>
+              201 0.842747 
+            </L>
+            <L>
+              <prev>
+                0.842747 
+              </prev>
+              203 0.842747 
+            </L>
+            <L>
+              <prev>
+                1.05807 
+              </prev>
+              209 1.05807 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              181 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              186 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              188 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              194 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              196 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              201 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              203 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              209 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24620 25150 
         </nodePos>
         </pegbar>
       <grid_dimension>
@@ -678,21 +4335,2792 @@
       </grid_dimension>
       </pegbars>
     <fxnodes>
-      <terminal>
+      <internal>
         <fxnode>
-          <Toonz_columnFx id='8'/>
+          <STD_toneCurveFx id='43'>
+            
+            <params>
+              <globalIntensity>
+                <default>
+                  1 
+                </default>
+                </globalIntensity>
+              <curve>
+                <tonecurve>
+                  <redgreenbluealphachannel>
+                    <point>
+                      <pointParam id='44'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='45'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='46'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='47'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='48'>
+                        
+                        <x>
+                          <default>
+                            116 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            75 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='49'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='50'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='51'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='52'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='53'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redgreenbluealphachannel>
+                  <redgreenbluechannel>
+                    <point>
+                      <pointParam id='54'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='55'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='56'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='57'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='58'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='59'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='60'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='61'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='62'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='63'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redgreenbluechannel>
+                  <redchannel>
+                    <point>
+                      <pointParam id='64'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='65'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='66'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='67'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='68'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='69'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='70'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='71'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='72'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='73'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redchannel>
+                  <greenchannel>
+                    <point>
+                      <pointParam id='74'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='75'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='76'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='77'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='78'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='79'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='80'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='81'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='82'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='83'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </greenchannel>
+                  <bluechannel>
+                    <point>
+                      <pointParam id='84'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='85'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='86'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='87'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='88'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='89'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='90'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='91'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='92'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='93'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </bluechannel>
+                  <alphachannel>
+                    <point>
+                      <pointParam id='94'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='95'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='96'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='97'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='98'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='99'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='100'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='101'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='102'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='103'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </alphachannel>
+                  <isLineaer>
+                    0 0 
+                  </isLineaer>
+                  </tonecurve>
+                </curve>
+              </params>
+            <ports>
+              <Source>
+                <STD_blurFx id='104'>
+                  
+                  <params>
+                    <value>
+                      <default>
+                        1.04987 
+                      </default>
+                      </value>
+                    <useSSE>
+                      1 1 
+                    </useSSE>
+                    </params>
+                  <ports>
+                    <Source>
+                      <Toonz_columnFx id='20'/>
+                    </Source>
+                    </ports>
+                  <dagNodePos>
+                    25004.3 25130.8 
+                  </dagNodePos>
+                  <numberId>
+                    1 
+                  </numberId>
+                  <name>
+                    Blur01 
+                  </name>
+                  <fxId>
+                    Blur01 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </STD_blurFx>
+                
+              </Source>
+              </ports>
+            <dagNodePos>
+              25143.7 25142.1 
+            </dagNodePos>
+            <numberId>
+              2 
+            </numberId>
+            <name>
+              Curves02 
+            </name>
+            <fxId>
+              Curves02 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_toneCurveFx>
+          
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='6'/>
+          <STD_toneCurveFx id='105'>
+            
+            <params>
+              <globalIntensity>
+                <default>
+                  1 
+                </default>
+                </globalIntensity>
+              <curve>
+                <tonecurve>
+                  <redgreenbluealphachannel>
+                    <point>
+                      <pointParam id='106'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='107'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='108'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='109'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='110'>
+                        
+                        <x>
+                          <default>
+                            76 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            167 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='111'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='112'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='113'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='114'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='115'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redgreenbluealphachannel>
+                  <redgreenbluechannel>
+                    <point>
+                      <pointParam id='116'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='117'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='118'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='119'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='120'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='121'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='122'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='123'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='124'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='125'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redgreenbluechannel>
+                  <redchannel>
+                    <point>
+                      <pointParam id='126'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='127'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='128'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='129'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='130'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='131'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='132'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='133'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='134'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='135'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </redchannel>
+                  <greenchannel>
+                    <point>
+                      <pointParam id='136'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='137'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='138'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='139'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='140'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='141'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='142'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='143'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='144'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='145'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </greenchannel>
+                  <bluechannel>
+                    <point>
+                      <pointParam id='146'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='147'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='148'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='149'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='150'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='151'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='152'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='153'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='154'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='155'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </bluechannel>
+                  <alphachannel>
+                    <point>
+                      <pointParam id='156'>
+                        
+                        <x>
+                          <default>
+                            -40 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='157'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='158'>
+                        
+                        <x>
+                          <default>
+                            -20 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='159'>
+                        
+                        <x>
+                          <default>
+                            0 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            0 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='160'>
+                        
+                        <x>
+                          <default>
+                            16 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            16 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='161'>
+                        
+                        <x>
+                          <default>
+                            239 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            239 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='162'>
+                        
+                        <x>
+                          <default>
+                            255 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='163'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='164'>
+                        
+                        <x>
+                          <default>
+                            275 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    <point>
+                      <pointParam id='165'>
+                        
+                        <x>
+                          <default>
+                            295 
+                          </default>
+                          </x>
+                        <y>
+                          <default>
+                            255 
+                          </default>
+                          </y>
+                        
+                      </pointParam>
+                      
+                    </point>
+                    </alphachannel>
+                  <isLineaer>
+                    0 0 
+                  </isLineaer>
+                  </tonecurve>
+                </curve>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='36'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25115.1 25003.1 
+            </dagNodePos>
+            <numberId>
+              3 
+            </numberId>
+            <name>
+              Curves03 
+            </name>
+            <fxId>
+              Curves03 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_toneCurveFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_blurFx id='104'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='166'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='28'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25375 24728 
+            </dagNodePos>
+            <numberId>
+              6 
+            </numberId>
+            <name>
+              BodyHighlight06 
+            </name>
+            <fxId>
+              BodyHighlight06 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='167'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='26'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25370 24791.7 
+            </dagNodePos>
+            <numberId>
+              3 
+            </numberId>
+            <name>
+              BodyHighlight03 
+            </name>
+            <fxId>
+              BodyHighlight03 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='168'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='38'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25053.2 25072.8 
+            </dagNodePos>
+            <numberId>
+              1 
+            </numberId>
+            <name>
+              BodyHighlight01 
+            </name>
+            <fxId>
+              BodyHighlight01 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='169'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='32'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25380.8 24609.9 
+            </dagNodePos>
+            <numberId>
+              8 
+            </numberId>
+            <name>
+              BodyHighlight08 
+            </name>
+            <fxId>
+              BodyHighlight08 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='170'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='24'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25376 24855.7 
+            </dagNodePos>
+            <numberId>
+              2 
+            </numberId>
+            <name>
+              BodyHighlight02 
+            </name>
+            <fxId>
+              BodyHighlight02 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='171'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='34'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25379 24553.3 
+            </dagNodePos>
+            <numberId>
+              9 
+            </numberId>
+            <name>
+              BodyHighlight09 
+            </name>
+            <fxId>
+              BodyHighlight09 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='172'>
+            
+            <params>
+              <mode>
+                4 
+              </mode>
+              <point>
+                <x>
+                  <default>
+                    10 
+                  </default>
+                  </x>
+                <y>
+                  <default>
+                    10 
+                  </default>
+                  </y>
+                </point>
+              <transparency>
+                <default>
+                  0.7 
+                </default>
+                </transparency>
+              <blur>
+                <default>
+                  2.09974 
+                </default>
+                </blur>
+              <color>
+                <red>
+                  <default>
+                    0.819608 
+                  </default>
+                  </red>
+                <green>
+                  <default>
+                    1 
+                  </default>
+                  </green>
+                <blue>
+                  <default>
+                    0.639216 
+                  </default>
+                  </blue>
+                <matte>
+                  <default>
+                    1 
+                  </default>
+                  </matte>
+                </color>
+              <invert>
+                0 0 
+              </invert>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='30'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25377.3 24671.7 
+            </dagNodePos>
+            <numberId>
+              7 
+            </numberId>
+            <name>
+              BodyHighlight07 
+            </name>
+            <fxId>
+              BodyHighlight07 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_bodyHighLightFx>
+          
+        </fxnode>
+        </internal>
+      <terminal>
+        <fxnode>
+          <STD_toneCurveFx id='43'/>
+        </fxnode>
+        <fxnode>
+          <STD_toneCurveFx id='105'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='22'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='40'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='42'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='166'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='167'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='168'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='169'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='170'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='171'/>
+        </fxnode>
+        <fxnode>
+          <STD_bodyHighLightFx id='172'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='9'>
+        <Toonz_xsheetFx id='173'>
           
           <params>
             </params>
           <ports>
             </ports>
+          <dagNodePos>
+            25514.7 24987.7 
+          </dagNodePos>
           <numberId>
             0 
           </numberId>
@@ -710,15 +7138,18 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='10'>
+        <Toonz_outputFx id='174'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='9'/>
+              <Toonz_xsheetFx id='173'/>
             </source>
             </ports>
+          <dagNodePos>
+            25661.9 24981.7 
+          </dagNodePos>
           <numberId>
             0 
           </numberId>
@@ -743,5 +7174,19 @@
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   30 oct. 25   00:11               |"
+    "| #2   30 oct. 25   01:59               |"
+    "| #3   30 oct. 25   02:17               |"
+    "| #4   30 oct. 25   19:44               |"
+    "| #5   31 oct. 25   17:50              shialeweb       |"
+    "| #6   31 oct. 25   17:57              shialeweb       |"
+    "| #7   04 nov. 25   11:45               |"
+    "| #8   05 nov. 25   01:57               |"
+    "| #9   05 nov. 25   20:37               |"
+    "| #10  05 nov. 25   22:29               |"
+    "| #11  05 nov. 25   22:40               |"
+    "| #12  11 nov. 25   17:25               |"
+    "| #13  11 nov. 25   18:59               |"
+    "| #14  11 nov. 25   23:08               |"
+    "| #15  17 nov. 25   17:20               |"
   </history>
   </tnz>
